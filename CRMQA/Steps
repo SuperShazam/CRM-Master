@@ -1,0 +1,11 @@
+1. create maven project 
+2.add dependencies selenium webdrivwe, testng, apachepoi
+create test and main packages
+in main create base,config,pages,testdata,util packages
+in test create only tests
+maven dependecies will add all the required jars to project
+
+
+3/2/19 Done till goto contacts page
+
+4/2/19

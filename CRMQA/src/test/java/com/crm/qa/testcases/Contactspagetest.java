@@ -47,7 +47,7 @@ class Contactspagetest extends Base {
 		Assert.assertTrue(objcontactspage.verifycontactslable(),"contacts lable missing");
 	}
 	
-	@Test(enabled=false)
+	@Test//(enabled=false)
 	public void selectcontactbynametest() throws InterruptedException {
 		driver.switchTo().defaultContent();
 		Thread.sleep(3000);

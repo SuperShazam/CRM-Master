@@ -9,8 +9,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.crm.qa.util.Testutil;
+import com.crm.qa.util.WebEventListener;
 
 public class Base {
 
@@ -20,6 +22,10 @@ public class Base {
 	// create property variable prop declare static as it can be used in child
 	// classes and test classes also
 	public static Properties prop;
+	
+	//EventFire
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener eventListener;
 
 	// 1. create constructor of class base
 	public Base() {
@@ -29,9 +35,7 @@ public class Base {
 			prop = new Properties();
 
 			// provide the path of the properties file as the argument
-			FileInputStream ip = new FileInputStream(
-					"F:\\Selenium\\Eclipse-Selenium-Workspace\\CRMQA\\src\\main\\java\\com\\crm\\qa"
-							+ "\\config\\congif.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Pankaj\\git\\CRM-Master\\CRMQA\\src\\main\\java\\com\\crm\\qa\\config\\congif.properties");
 			prop.load(ip);
 		} catch (
 
@@ -58,6 +62,13 @@ public class Base {
 			System.setProperty("webdriver.gecko.driver", "F:\\Selenium\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
+		
+		//for weblistner
+		e_driver=new EventFiringWebDriver(driver);
+		//now create object of event listner handler to register it with the EventFiringWebdriver
+		eventListener=new WebEventListener();
+		e_driver.register(eventListener);
+		driver=e_driver;
 
 		// declare other browser things
 		driver.manage().window().maximize();

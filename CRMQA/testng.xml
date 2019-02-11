@@ -1,6 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-  
+
 <suite name="SmokeSuite1" >
+
+<listeners>
+	<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
+	
+</listeners>
+  
+
   <test name="CRM APP TEST" >
     <classes>
        <class name="com.crm.qa.testcases.Loginpagetest" />

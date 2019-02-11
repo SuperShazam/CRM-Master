@@ -1,96 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-09T19:23:28Z" name="Default suite" finished-at="2019-02-09T19:23:50Z" duration-ms="22131">
+  <suite started-at="2019-02-11T19:28:37Z" name="SmokeSuite1" finished-at="2019-02-11T19:30:54Z" duration-ms="136946">
     <groups>
     </groups>
-    <test started-at="2019-02-09T19:23:28Z" name="Default test" finished-at="2019-02-09T19:23:50Z" duration-ms="22131">
-      <class name="com.crm.qa.testcases.Addnewcontactspagetest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:28Z" name="setup" finished-at="2019-02-09T19:23:45Z" duration-ms="16696" status="PASS">
+    <test started-at="2019-02-11T19:28:37Z" name="CRM APP TEST" finished-at="2019-02-11T19:30:54Z" duration-ms="136946">
+      <class name="com.crm.qa.testcases.Homepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:15Z" name="setup" finished-at="2019-02-11T19:29:30Z" duration-ms="14797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAddNewContactspageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:45Z" name="verifyAddNewContactspageTest" data-provider="getCRMTestData" finished-at="2019-02-09T19:23:49Z" duration-ms="3868" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[David]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Boon]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[AUS]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[4.565456542E9]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="clickOnAddNewContact()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:30Z" name="clickOnAddNewContact" finished-at="2019-02-11T19:29:30Z" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddNewContactspageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:49Z" name="teardown" finished-at="2019-02-09T19:23:50Z" duration-ms="660" status="PASS">
+        </test-method> <!-- clickOnAddNewContact -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:30Z" name="teardown" finished-at="2019-02-11T19:29:31Z" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="verifyAddNewContactspageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:50Z" name="verifyAddNewContactspageTest" data-provider="getCRMTestData" finished-at="2019-02-09T19:23:50Z" duration-ms="7" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sara]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Taylor]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Medico]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[7.899877899E9]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:31Z" name="setup" finished-at="2019-02-11T19:29:46Z" duration-ms="14930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifycontactslinkTest()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:46Z" name="verifycontactslinkTest" finished-at="2019-02-11T19:29:46Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactslinkTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:46Z" name="teardown" finished-at="2019-02-11T19:29:47Z" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:29:47Z" name="setup" finished-at="2019-02-11T19:30:02Z" duration-ms="15095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyhomepagetitletest()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:30:02Z" name="verifyhomepagetitletest" finished-at="2019-02-11T19:30:02Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepagetitletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:30:02Z" name="teardown" finished-at="2019-02-11T19:30:02Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:30:02Z" name="setup" finished-at="2019-02-11T19:30:16Z" duration-ms="13967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyusernametest()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:30:16Z" name="verifyusernametest" finished-at="2019-02-11T19:30:16Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusernametest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Homepagetest@484970b0]" started-at="2019-02-11T19:30:16Z" name="teardown" finished-at="2019-02-11T19:30:17Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.Homepagetest -->
+      <class name="com.crm.qa.testcases.Loginpagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:28:37Z" name="setup" finished-at="2019-02-11T19:28:47Z" duration-ms="10549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkalllinks()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:28:47Z" name="checkalllinks" finished-at="2019-02-11T19:28:48Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkalllinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:28:48Z" name="teardown" finished-at="2019-02-11T19:28:48Z" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:28:48Z" name="setup" finished-at="2019-02-11T19:28:58Z" duration-ms="10072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:28:58Z" name="logintest" finished-at="2019-02-11T19:29:06Z" duration-ms="7840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:29:06Z" name="teardown" finished-at="2019-02-11T19:29:07Z" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:29:07Z" name="setup" finished-at="2019-02-11T19:29:14Z" duration-ms="7025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateloginpagetitletest()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:29:14Z" name="validateloginpagetitletest" finished-at="2019-02-11T19:29:14Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginpagetitletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@3e96bacf]" started-at="2019-02-11T19:29:14Z" name="teardown" finished-at="2019-02-11T19:29:15Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.Loginpagetest -->
+      <class name="com.crm.qa.testcases.Contactspagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Contactspagetest@4470f8a6]" started-at="2019-02-11T19:30:17Z" name="setup" finished-at="2019-02-11T19:30:32Z" duration-ms="14532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectcontactbynametest()[pri:0, instance:com.crm.qa.testcases.Contactspagetest@4470f8a6]" started-at="2019-02-11T19:30:32Z" name="selectcontactbynametest" finished-at="2019-02-11T19:30:35Z" duration-ms="3386" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //a[text()='Pankaj Shinde']//parent::td[@class='datalistrow']preceding-sibling::td[@class='datalistrow']//input[@name=''contact_id] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[text()='Pankaj Shinde']//parent::td[@class='datalistrow']preceding-sibling::td[@class='datalistrow']//input[@name=''contact_id]' is not a valid XPath expression.
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-MKAVVM2', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Pankaj\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 26eaee6cc77266a2f4846cfd353fbf7f
+*** Element info: {Using=xpath, value=//a[text()='Pankaj Shinde']//parent::td[@class='datalistrow']preceding-sibling::td[@class='datalistrow']//input[@name=''contact_id]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[text()='Pankaj Shinde']//parent::td[@class='datalistrow']preceding-sibling::td[@class='datalistrow']//input[@name=''contact_id] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[text()='Pankaj Shinde']//parent::td[@class='datalistrow']preceding-sibling::td[@class='datalistrow']//input[@name=''contact_id]' is not a valid XPath expression.
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-MKAVVM2', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Pankaj\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 26eaee6cc77266a2f4846cfd353fbf7f
+*** Element info: {Using=xpath, value=//a[text()='Pankaj Shinde']//parent::td[@class='datalistrow']preceding-sibling::td[@class='datalistrow']//input[@name=''contact_id]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
-at com.crm.qa.testcases.Addnewcontactspagetest.verifyAddNewContactspageTest(Addnewcontactspagetest.java:55)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at com.crm.qa.pages.Contactspage.selectcontactbyname(Contactspage.java:35)
+at com.crm.qa.testcases.Contactspagetest.selectcontactbynametest(Contactspagetest.java:55)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -118,95 +179,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddNewContactspageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:50Z" name="teardown" finished-at="2019-02-09T19:23:50Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="verifyAddNewContactspageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:50Z" name="verifyAddNewContactspageTest" data-provider="getCRMTestData" finished-at="2019-02-09T19:23:50Z" duration-ms="8" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mrs.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Roma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Jones]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Writo]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[7.411477411E9]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MKAVVM2', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MKAVVM2', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
-at com.crm.qa.testcases.Addnewcontactspagetest.verifyAddNewContactspageTest(Addnewcontactspagetest.java:55)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddNewContactspageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Addnewcontactspagetest@683dbc2c]" started-at="2019-02-09T19:23:50Z" name="teardown" finished-at="2019-02-09T19:23:50Z" duration-ms="0" status="PASS">
+        </test-method> <!-- selectcontactbynametest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Contactspagetest@4470f8a6]" started-at="2019-02-11T19:30:35Z" name="teardown" finished-at="2019-02-11T19:30:36Z" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.crm.qa.testcases.Addnewcontactspagetest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.Contactspagetest@4470f8a6]" started-at="2019-02-11T19:30:36Z" name="setup" finished-at="2019-02-11T19:30:50Z" duration-ms="14316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifycontactslabletest()[pri:0, instance:com.crm.qa.testcases.Contactspagetest@4470f8a6]" started-at="2019-02-11T19:30:50Z" name="verifycontactslabletest" finished-at="2019-02-11T19:30:53Z" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactslabletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Contactspagetest@4470f8a6]" started-at="2019-02-11T19:30:53Z" name="teardown" finished-at="2019-02-11T19:30:54Z" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.Contactspagetest -->
+    </test> <!-- CRM APP TEST -->
+  </suite> <!-- SmokeSuite1 -->
 </testng-results>

@@ -34,20 +34,20 @@ public class Homepagetest extends Base {
 		objAddNewContactsPage= new Addnewcontactspage();
 	}
 
-	@Test (enabled=false)//(priority=1)
+	@Test //(enabled=false)//(priority=1)
 	public void verifyhomepagetitletest() {
 		String homepagetitle = objhomepage.verifyhomepagetitle();
 		Assert.assertEquals(homepagetitle, "CRMPRO", "Homepage title not matched");
 	}
 
-	@Test(enabled=false)//(priority = 2)
+	@Test//(enabled=false)//(priority = 2)
 	public void verifyusernametest() {
 		objtestutil.switchtoframe();
 		Assert.assertTrue(objhomepage.verifyusername());
 
 	}
 	
-	@Test(enabled=false)//(priority=3)
+	@Test//(enabled=false)//(priority=3)
 	public void verifycontactslinkTest() {
 		objtestutil.switchtoframe();
 		objcontactspage= objhomepage.clickoncontactslink();
